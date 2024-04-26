@@ -35,7 +35,7 @@ request.setCharacterEncoding("UTF-8");
     </thead>
     <tbody>
         <c:forEach var="b" items="${list}" varStatus="stat">
-        <tr>
+        <tr id="table-item-row">
             <td> ${stat.count} </td>
             <td> <a href="detail?bno=${b.bno}"> ${b.title} </a> </td>
             <td> ${b.writer} </td>

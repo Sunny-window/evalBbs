@@ -10,6 +10,7 @@
         body {
             font-family: "Gowun Dodum", sans-serif;
             min-height:900px;
+            box-sizing: border-box;
         }
         .header *{
             text-align: center;
@@ -23,7 +24,8 @@
             text-decoration: none;
             color: white;
         }
-        section{
+        table {
+            border-spacing: 10px 10px;
         }
         .title{
             font-size: 28px;
@@ -53,7 +55,20 @@
             justify-content: space-between;
             align-items: center;
         }
-        
+        #delete-btn{
+            font-size:1.1rem;
+            color:red;
+            display: flex;
+            justify-content: flex-end;
+            margin:8px;
+        }
+        #delete-btn span:hover{
+            color:white;
+            background-color:red;
+        }
+        #table-item-row:hover{
+            box-shadow: 1px 12px 24px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.12);
+        }
     </style>
 </head>
 

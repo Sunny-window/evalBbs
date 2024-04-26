@@ -29,11 +29,19 @@ request.setCharacterEncoding("UTF-8");
         <div class="writer"> <span> 작성자 : ${dto.writer} </span> </div>
     </div>
     <div class="content"> ${dto.content} </div>
+    <div id="delete-btn"> <span>삭제<span> </div>
 </div>
 </section>
 <footer>
 
 </footer>
-
+<script>
+    const deletebtn = document.getElementById("delete-btn");
+    deletebtn.addEventListener("click", function(){
+        if(confirm("정말 삭제하시겠습니까?")){
+            location.href = "delete?bno=${dto.bno}";
+        }
+    });
+</script>
 </body>
 </html>
