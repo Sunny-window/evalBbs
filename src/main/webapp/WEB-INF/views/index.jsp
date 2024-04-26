@@ -18,12 +18,9 @@ request.setCharacterEncoding("UTF-8");
 <header>
     <%@ include file="sub/header.jsp" %>
 </header>
-<nav>
-
-</nav>
 <section>
-    <h2> index page </h2>
-    
+    <h2> Welcome. </h2>
+    <h3> sunny-window's Simple BBS Project </h3>
 </section>
 <footer>
 

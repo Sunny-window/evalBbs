@@ -18,9 +18,6 @@ request.setCharacterEncoding("UTF-8");
 <header>
     <%@ include file="sub/header.jsp" %>
 </header>
-<nav>
-
-</nav>
 <section>
     <pre>
 <form method="post" action="write">

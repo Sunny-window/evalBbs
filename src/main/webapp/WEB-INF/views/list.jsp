@@ -18,12 +18,11 @@ request.setCharacterEncoding("UTF-8");
 <header>
     <%@ include file="sub/header.jsp" %>
 </header>
-<nav>
-
-</nav>
-<section>
-    <h2> List View </h2>
-    <a href="writeForm"> 글 작성 </a>
+<h2> List View </h2>
+<div  class="text-right"> 
+<a style="font-size:20px; background-color:black; color: white; text-decoration:none;" href="writeForm"> 글 작성 </a>
+</div>
+<section id="list-table-section">
     <table> 
     <thead>
         <tr>

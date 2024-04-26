@@ -19,7 +19,7 @@ public class EvalBbsController {
 	
 	@RequestMapping("/")
 	public String root() {
-		return "redirect:list";
+		return "index";
 	}
 
 	@RequestMapping("/list")
