@@ -9,4 +9,10 @@
     <insert id="insert">
         INSERT INTO evalbbs (title, content, writer) VALUES(#{bbs.title},#{bbs.content},#{bbs.writer});
     </insert>
+    <select id="select">
+        SELECT * from evalbbs where bno=#{param1}
+    </select>
+    <delete id="delete">
+        delete from evalbbs where bno=#{param1}
+    </delete> 
 </mapper>

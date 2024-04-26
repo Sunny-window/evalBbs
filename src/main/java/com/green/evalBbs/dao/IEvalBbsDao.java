@@ -11,4 +11,6 @@ import com.green.evalBbs.dto.EvalBbsDto;
 public interface IEvalBbsDao {
     public List<EvalBbsDto> selectAll();
     public int insert(@Param("bbs")EvalBbsDto evalBbsDto);
+    public EvalBbsDto select(int bno);
+    public int delete(int bno);
 }

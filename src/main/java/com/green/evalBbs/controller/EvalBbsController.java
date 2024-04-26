@@ -42,4 +42,13 @@ public class EvalBbsController {
 
 		return "redirect:list";
 	}
+
+	@RequestMapping("detail")
+	public String detail(HttpServletRequest req, Model model){
+		String bno_ = req.getParameter("bno");
+		int bno = Integer.parseInt(bno_);
+		model.addAttribute("dto",dao.select(bno));
+		
+		return "detail";
+	}
 }
