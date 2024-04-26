@@ -6,4 +6,7 @@
     <select id="selectAll" resultType="com.green.evalBbs.dto.EvalBbsDto">
         select * from evalbbs
     </select>
+    <insert id="insert">
+        INSERT INTO evalbbs (title, content, writer) VALUES(#{bbs.title},#{bbs.content},#{bbs.writer});
+    </insert>
 </mapper>

@@ -23,6 +23,7 @@ request.setCharacterEncoding("UTF-8");
 </nav>
 <section>
     <h2> List View </h2>
+    <a href="writeForm"> 글 작성 </a>
     <table> 
     <thead>
         <tr>

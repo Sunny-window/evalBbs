@@ -26,6 +26,6 @@
 </head>
 
 <div class="header">
-    <h1> <a id="header" href="/"> My  Project </a> </h1>
+    <h1> <a id="header" href="/"> Green BBS Project </a> </h1>
 </div>
 <hr>
